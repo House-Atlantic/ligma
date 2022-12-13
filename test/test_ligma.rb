@@ -7,7 +7,7 @@ class TestLigma < Minitest::Test
     refute_nil ::Ligma::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_ballz
+    assert_equal(Ligma::ballz, 'ballz')
   end
 end

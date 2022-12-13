@@ -4,5 +4,7 @@ require_relative "ligma/version"
 
 module Ligma
   class Error < StandardError; end
-  # Your code goes here...
+  def self.ballz
+    'ballz'
+  end
 end
